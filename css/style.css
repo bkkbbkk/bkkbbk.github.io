@@ -72,7 +72,6 @@ html {
 .nada {
 	height: 800px;
 	width: 533px;
-
 	margin-right: 20px;
 }
 
@@ -307,14 +306,6 @@ html {
 #tab_1:checked ~ #txt1,
 #tab_2:checked ~ #txt2,
 #tab_3:checked ~ #txt3 { display: block;}
-.otkr {
-	color: white;
-	text-decoration: none;
-	position: relative;
-	font-size: 1.5rem;	
-		margin-top: 600px;
-	margin-left: 950px;
-}
 .a {
 	text-decoration: none;
 	color: #D2B29B;
