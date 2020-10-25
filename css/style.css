@@ -310,3 +310,21 @@ html {
 	text-decoration: none;
 	color: #D2B29B;
 }
+@media screen and (max-width: 1746px) {
+	.nada {
+	height: 700px;
+	width: 433px;
+	margin-right: 20px;
+}
+
+.kiril {
+	height: 700px;
+	width: 433px;
+}
+
+.kto {
+	height: 700px;
+	width: 433px;
+	margin-left: 20px;
+}
+}
