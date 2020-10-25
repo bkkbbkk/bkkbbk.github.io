@@ -54,49 +54,7 @@ html {
 	-ms-align-items: center;
 	/*определяет как браузер распределяет пространоство вокруг флекс-элементов вдоль главной оси контейнера*/
 	align-items: center;
-	margin-right: 400px;
-}
-
-.nav-link {
-	/*стили, декорации текста*/
-	text-decoration: none;
-	/*цвет текста*/
-	color: black;
-	/*определяет, как элемент должен быть показан в документе*/
-	display: inline-block;
-	/*размер шрифта элемента*/
-	font-size: 2rem;
-	/*устанавливает эфект перехода между двумя состояниями элемента*/
-	transition: 0.8s;
-	color: white;
-}
-.nav-link:focus {
-	color: #D2B29B;
-}
-
-.nav-link:before {
-	content: "";
-	display: block;
-	width: 100%;
-	height: 2px;
-	background-color: #D2B29B;
-	transform: scaleX(0);
-	transition: all 0.2s;
-	transform-origin: 100%;
-}
-.nav-link:after {
-	content: "";
-	display: block;
-	width: 100%;
-	height: 2px;
-	background-color: #D2B29B;
-	transform: scaleX(0);
-	transition: all 0.2s;
-	transform-origin: 0%;
-}
-.nav-link + .nav-link {
-	/*отступ слева*/
-	margin-left: 3%;
+	margin-right: 200px;
 }
 .logo {
 	/*размер шрифта элемента*/
@@ -157,14 +115,16 @@ html {
 	background-position: -300px -880px;
 	background-repeat: no-repeat;
 	background-size: 110rem;
-	transition: 1s;
+	opacity: 1;
+    transition: 1s, opacity 124ms linear ;
+	cursor: pointer;
 }
 .women:hover {
-	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../dasha.jpg);
 	background-position: -150px -600px;
 	background-size: 80rem;
 	transition: 1s;
-	cursor: pointer;
+	opacity: 0.7;
+	
 }
 .man {
 	width: 544px;
@@ -177,13 +137,15 @@ html {
 	background-position: -10px -350px;
 	background-repeat: no-repeat;
 	background-size: 80rem;
-	transition: 1s;
+	opacity: 1;
+    transition: 1s, opacity 124ms linear ;
 	cursor: pointer;
 }
 .man:hover {
 	background-position: 0px -250px;
 	background-size: 60rem;
 	transition: 1s;
+	opacity: 0.7;
 }
 .cen {
 	color: white;
@@ -220,7 +182,7 @@ html {
 }
 .inst {
 	width: 100%;
-	height: 700px;
+	height: 750px;
 	background-color: #111111;
 	position: absolute;
 	display: block;
@@ -262,7 +224,7 @@ html {
 	transition: 0.7s;
 }
 .nada1:hover {
-	background-size: 70rem;
+	background-size: 55rem;
 	background-position: -140px, 0px;
 	transition: 0.7s;
 }
@@ -281,12 +243,12 @@ html {
 	margin-left: 350px;
 	margin-top: 241px;
 	display: flex;
-	transition: 0.7s;
+	transition: 1s;
 }
 .dasha1:hover {
-	background-size: 80rem;
-	background-position: -90px, 0px;
-	transition: 0.7s;
+	background-size: 60rem;
+	background-position: -50px, 0px;
+	transition: 1s;
 }
 .dasha2 {
 	background-image: url(../dasha2.jpg);
@@ -299,10 +261,61 @@ html {
 	margin-left: 830px;
 	margin-top: 241px;
 	display: flex;
-	transition: 0.7s;
+	transition: 1s;
 }
 .dasha2:hover {
-	background-size: 80rem;
-	background-position: -150px, -10px;
-	transition: 0.7s;
+	background-size: 60rem;
+	background-position: -80px, -10px;
+	transition: 1s;
+}
+.tabs {
+	width: 70%;
+	padding: 0px;
+	margin-top: 4px;
+	margin-left: 800px;
+}
+
+.tabs>input {
+	display: none;
+}
+.tabs>label:hover {
+	border-bottom: 4px solid #D2B29B;
+	margin-top: 4px;
+}
+
+.tabs>label {
+	color: white;
+	display: inline-block;
+	font-size: 2.5rem;
+
+	width: 25%;
+	cursor: pointer;
+}
+
+.tabs>label[for="tab_2"] {
+	margin-left: 20px;
+}
+
+.tabs>label[for="tab_3"] {
+	margin-left: 20px;
+}
+
+.tabs>input:checked + label {
+	color: #D2B29B;
+}
+
+#tab_1:checked ~ #txt1,
+#tab_2:checked ~ #txt2,
+#tab_3:checked ~ #txt3 { display: block;}
+.otkr {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	font-size: 1.5rem;	
+		margin-top: 600px;
+	margin-left: 950px;
+}
+.a {
+	text-decoration: none;
+	color: #D2B29B;
 }
