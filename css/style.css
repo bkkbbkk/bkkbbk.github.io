@@ -142,7 +142,7 @@ html {
 }
 .prim {
 	width: 100%;
-	height: 700px;
+	height: 650px;
 	background-color: #161618;
 	display: block;
 }
@@ -157,12 +157,14 @@ html {
 	background-position: -300px -880px;
 	background-repeat: no-repeat;
 	background-size: 110rem;
-	transition: 0.6s;
+	transition: 1s;
 }
 .women:hover {
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../dasha.jpg);
 	background-position: -150px -600px;
 	background-size: 80rem;
-	transition: 0.6s;
+	transition: 1s;
+	cursor: pointer;
 }
 .man {
 	width: 544px;
@@ -175,12 +177,13 @@ html {
 	background-position: -10px -350px;
 	background-repeat: no-repeat;
 	background-size: 80rem;
-	transition: 0.6s;
+	transition: 1s;
+	cursor: pointer;
 }
 .man:hover {
 	background-position: 0px -250px;
 	background-size: 60rem;
-	transition: 0.6s;
+	transition: 1s;
 }
 .cen {
 	color: white;
@@ -209,4 +212,97 @@ html {
 	background-color: #D2A965;
 	transition: 0.2s;
 	text-decoration: none;
+}
+.posm:hover {
+	color: white;
+	background-color: #FF8C00;
+	cursor: pointer;
+}
+.inst {
+	width: 100%;
+	height: 700px;
+	background-color: #111111;
+	position: absolute;
+	display: block;
+}
+.new {
+	color: #ffffff;
+	position: absolute;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 4.7px;
+    margin-top: 60px;
+    margin-left: 700px;
+}
+.ins {
+	color: #ffffff;
+    font-family: "Raleway", Sans-serif;
+    font-size: 3.2rem;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-left: 650px;
+    position: absolute;
+}
+.phot {
+	text-decoration: none;
+	color: white;
+}
+.nada1 {
+	background-image: url(../nada1.jpg);
+	position: absolute;
+	background-size: 45rem;
+	background-position: -80px, 0px;
+	background-repeat: no-repeat;
+	height: 430px;
+	width: 296.5px;
+	margin-left: 20px;
+	margin-top: 240px;
+	transition: 0.7s;
+}
+.nada1:hover {
+	background-size: 70rem;
+	background-position: -140px, 0px;
+	transition: 0.7s;
+}
+.dasha1 {
+	width: 430px;
+	height: 430px;
+}
+.dasha1 {
+	background-image: url(../dasha1.jpg);
+	position: absolute;
+	background-position: 0px, -10px;
+	background-size: 50rem;
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 432px;
+	margin-left: 350px;
+	margin-top: 241px;
+	display: flex;
+	transition: 0.7s;
+}
+.dasha1:hover {
+	background-size: 80rem;
+	background-position: -90px, 0px;
+	transition: 0.7s;
+}
+.dasha2 {
+	background-image: url(../dasha2.jpg);
+	position: absolute;
+	background-position: -30px, 0px;
+	background-size: 50rem;
+	background-repeat: no-repeat;
+	width: 450px;
+	height: 432px;
+	margin-left: 830px;
+	margin-top: 241px;
+	display: flex;
+	transition: 0.7s;
+}
+.dasha2:hover {
+	background-size: 80rem;
+	background-position: -150px, -10px;
+	transition: 0.7s;
 }
