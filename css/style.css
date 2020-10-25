@@ -21,7 +21,7 @@ html {
 	font-family: 'Open Sans' ;
 }
 .foto {
-	width: 100%;
+	width: 1903px;
 	height: 1061px;
 	background-color: #111111;
 }
@@ -35,7 +35,7 @@ html {
 	padding: 0 3%;
 	display: flex;
 	/*ширина*/
-	width: 100%;
+	width: 1903px;
 	-ms-align-items: center;
 	/*элемент становится по центру*/
 	align-items: center;
@@ -98,7 +98,7 @@ html {
 	margin-left: 700px;
 }
 .prim {
-	width: 100%;
+	width: 1903px;
 	height: 650px;
 	background-color: #161618;
 	display: block;
@@ -180,7 +180,7 @@ html {
 	cursor: pointer;
 }
 .inst {
-	width: 100%;
+	width: 1903px;
 	height: 750px;
 	background-color: #111111;
 	position: absolute;
@@ -295,10 +295,6 @@ html {
 	margin-left: 20px;
 }
 
-.tabs>label[for="tab_3"] {
-	margin-left: 20px;
-}
-
 .tabs>input:checked + label {
 	color: #D2B29B;
 }
@@ -309,22 +305,4 @@ html {
 .a {
 	text-decoration: none;
 	color: #D2B29B;
-}
-@media screen and (max-width: 1746px) {
-	.nada {
-	height: 700px;
-	width: 433px;
-	margin-right: 20px;
-}
-
-.kiril {
-	height: 700px;
-	width: 433px;
-}
-
-.kto {
-	height: 700px;
-	width: 433px;
-	margin-left: 20px;
-}
 }
