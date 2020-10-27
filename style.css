@@ -109,3 +109,64 @@ html {
 	text-decoration: none;
 	color: #D2B29B;
 }
+.main {
+	width: 1903px;
+	height: 857px;
+	background-color: #111111;
+}
+.dandr {
+	width: 503px;
+	height: 736px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 100px;
+	border: 3px solid #D2B29B;
+}
+h2 {
+	position: absolute;
+	margin-left: 700px;
+	color: #D2B29B;
+	font-size: 2rem;
+	margin-top: 150px;
+}
+.div1 {
+	width: 400px;
+	height: 70px;
+	position: absolute;
+	border: 3px solid #D2B29B;
+	margin-left: 800px;
+	color: #D2B29B;
+	margin-top: 350px;
+	font-size: 2rem;
+	padding-top: 17px;
+	padding-left: 70px;
+	transition: 0.9s;
+}
+.div2 {
+	width: 400px;
+	height: 70px;
+	position: absolute;
+	border: 3px solid #D2B29B;
+	color: #D2B29B;
+	margin-left: 800px;
+	color: #D2B29B;
+	margin-top: 450px;
+	font-size: 2rem;
+	padding-top: 17px;
+	padding-left: 70px;
+	transition: 0.9s;
+}
+/*.a {
+	color: #D2B29B;
+	text-decoration: none;
+}*/
+.div1:hover {
+	background-color: #D2B29B;
+	transition: 0.9s;
+	color: black;
+}
+.div2:hover {
+	background-color: #D2B29B;
+	transition: 0.9s;
+	color: black;
+}
