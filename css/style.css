@@ -297,11 +297,11 @@ html {
 
 .tabs>input:checked + label {
 	color: #D2B29B;
+	border-bottom: 4px solid #D2B29B;
 }
 
 #tab_1:checked ~ #txt1,
-#tab_2:checked ~ #txt2,
-#tab_3:checked ~ #txt3 { display: block;}
+#tab_2:checked ~ #txt2, { display: block;}
 .a {
 	text-decoration: none;
 	color: #D2B29B;
@@ -310,20 +310,26 @@ html {
 	height: 800px;
 	width: 533px;
 	margin-top: 150px;
-	margin-left: 200px;
+	margin-left: 700px;
 }
 .knop {
 	width: 50px;
 	height: 50px;
 	border-radius: 20px;
 	background-color: #D2B29B;
+	margin-top: -100px;
+	position: absolute;
+	margin-top: 530px;
+	margin-left: 20px;
+	outline: none;
 }
 .knop1 {
-	margin-left: 150px;
-	margin-top: 910px;
+	margin-left: 630px;
+	margin-top: 530px;
 	width: 50px;
 	height: 50px;
 	border-radius: 20px;
 	background-color: #D2B29B;
 	position: absolute;
+	outline: none;
 }
