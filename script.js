@@ -1,7 +1,10 @@
 var images = [
-"nada1.jpg",
+"nada.jpg",
 "kiril.jpg",
-"kto.jpg"
+"kto.jpg",
+"dasha.jpg",
+"nada1.jpg",
+"lena.jpg"
 ];
 var num = 0;
 function next() {
