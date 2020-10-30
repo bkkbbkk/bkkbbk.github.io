@@ -35,7 +35,7 @@ html {
 	padding: 0 3%;
 	display: flex;
 	/*ширина*/
-	width: 100%;
+	width: 1903px;
 	-ms-align-items: center;
 	/*элемент становится по центру*/
 	align-items: center;
@@ -122,7 +122,7 @@ html {
 	margin-left: 100px;
 	border: 3px solid #D2B29B;
 }
-h2 {
+.h2 {
 	position: absolute;
 	margin-left: 700px;
 	color: #D2B29B;
@@ -169,4 +169,49 @@ h2 {
 	background-color: #D2B29B;
 	transition: 0.9s;
 	color: black;
+}
+.main1 {
+	background-color: #161618;
+	width: 1903px;
+	height: 805px;
+}
+.obomne {
+	margin-left: 550px;
+}
+.obo {
+	color: silver;
+	font-size: 2rem;
+	margin-top: 50px;
+}
+.obo1 {
+	color: silver;
+	font-size: 2rem;
+	margin-top: 10px;
+}
+.obo2 {
+	color: silver;
+	font-size: 2rem;
+	margin-top: 10px;
+}
+.obo3 {
+	color: silver;
+	font-size: 2rem;
+	margin-top: 10px;
+}
+.obomne {
+	width: 900px;
+	height: 450px;	
+}
+.h1 {
+	color: #D2B29B;
+	font-size: 3rem;
+}
+.img {
+	width: 533px;
+	height: 800px;
+	margin-top: -450px;
+}
+footer {
+	font-size: 1.5rem;
+	text-align: center;
 }
