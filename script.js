@@ -3,8 +3,14 @@ var images = [
 "nada.jpg",
 "kiril.jpg",
 "kto.jpg",
-"dasha.jpg",
+"nada3.jpg",
 "nada1.jpg",
+"lena.jpg"
+];
+var images1 = [
+"nada4.jpg",
+"ila.jpg",
+"nada3.jpg",
 "lena.jpg"
 ];
 // Кнопки по смене фото
@@ -21,19 +27,19 @@ function next() {
 
 	var slider = document.getElementById('slider');
 	num++;
-	if (num >= images.length) {
+	if (num >= images1.length) {
 		num = 0;
 	}
-	slider.src = images[num];
+	slider.src = images1[num];
 }
 // Назад
 function prew() {
 	var slider = document.getElementById('slider');
 	num--;
 	if (num < 0) {
-		num = images.length-1;
+		num = images1.length-1;
 	}
-	slider.src = images[num];
+	slider.src = images1[num];
 }
 // Плавная смена фото
 var num = 0;
@@ -50,7 +56,6 @@ setInterval(nextt, 4000);
 function zagr() {
 	var photo2 = document.getElementById('photo1');
 	photo2.animate([ { opacity: 0 },
-                  { opacity: 1 },
                   { opacity: 1 },
                   { opacity: 1 },
                   { opacity: 0 }],4000);
