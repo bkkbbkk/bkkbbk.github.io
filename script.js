@@ -34,6 +34,14 @@ function next() {
 }
 // Назад
 function prew() {
+	function zagr() {
+	var slider = document.getElementById('slider');
+	slider.animate([
+				{ opacity: 0 },
+                { opacity: 1 },],1000);
+	}
+	setTimeout(zagr, 0)
+	
 	var slider = document.getElementById('slider');
 	num--;
 	if (num < 0) {
