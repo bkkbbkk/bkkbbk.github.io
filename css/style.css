@@ -65,37 +65,43 @@ html {
 	margin-left: 50px;
 	color: #FFFACD;
 }
-.photo {
+#photo {
 	margin-left: 100px;
+	position: absolute;
 }
 
-.nada {
+#photo1 {
 	height: 800px;
 	width: 533px;
-	margin-right: 20px;
+	margin-top: 100px;
+	position: absolute;
+	margin-left: 600px;
+	animation: gg 4s;
 }
-
-.kiril {
-	height: 800px;
-	width: 533px;
-}
-
-.kto {
-	height: 800px;
-	width: 533px;
-	margin-left: 20px;
+@keyframes gg {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 .vibor {
 	color: #BF9D7B;
 	font-size: 51px;
-	margin-top: 70px;
 	margin-left: 400px;
 	font-family: "Raleway", Sans-serif;
+	position: absolute;
 }
 .primer {
 	color: #BF9D7B;
+	margin-top: 50px;
 	font-size: 25px;
 	margin-left: 700px;
+	position: absolute;
 }
 .prim {
 	width: 1903px;
@@ -209,63 +215,6 @@ html {
 .phot {
 	text-decoration: none;
 	color: white;
-}
-.nada1 {
-	background-image: url(../nada1.jpg);
-	position: absolute;
-	background-size: 45rem;
-	background-position: -80px, 0px;
-	background-repeat: no-repeat;
-	height: 430px;
-	width: 296.5px;
-	margin-left: 20px;
-	margin-top: 240px;
-	transition: 0.7s;
-}
-.nada1:hover {
-	background-size: 55rem;
-	background-position: -140px, 0px;
-	transition: 0.7s;
-}
-.dasha1 {
-	width: 430px;
-	height: 430px;
-}
-.dasha1 {
-	background-image: url(../dasha1.jpg);
-	position: absolute;
-	background-position: 0px, -10px;
-	background-size: 50rem;
-	background-repeat: no-repeat;
-	width: 450px;
-	height: 432px;
-	margin-left: 350px;
-	margin-top: 241px;
-	display: flex;
-	transition: 1s;
-}
-.dasha1:hover {
-	background-size: 60rem;
-	background-position: -50px, 0px;
-	transition: 1s;
-}
-.dasha2 {
-	background-image: url(../dasha2.jpg);
-	position: absolute;
-	background-position: -30px, 0px;
-	background-size: 50rem;
-	background-repeat: no-repeat;
-	width: 450px;
-	height: 432px;
-	margin-left: 830px;
-	margin-top: 241px;
-	display: flex;
-	transition: 1s;
-}
-.dasha2:hover {
-	background-size: 60rem;
-	background-position: -80px, -10px;
-	transition: 1s;
 }
 .tabs {
 	width: 70%;
