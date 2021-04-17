@@ -23,7 +23,7 @@ function next() {
 				{ opacity: 0 },
                 { opacity: 1 },],1000);
 	}
-	setTimeout(zagr, 0)
+	setTimeout(zagr,)
 
 	var slider = document.getElementById('slider');
 	num++;
